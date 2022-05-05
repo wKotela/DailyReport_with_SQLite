@@ -5,7 +5,19 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.sql.*;
 
+
+/**
+ * <class>DailyReportSQLite</class> class enables the user to load buy/supply database from SQLite .db file
+ * and then save a summary report to a .csv file.
+ * Input database must contain a table named <b>DailyOperations</b>, which contains two columns:
+ * <b>operationType</b> and <b>amount</b>.
+ * operationType column must contain "buy" or "supply" text.
+ * amount must contain integer value.
+ * Any table/column DB inconsistency might result in a SQLException.
+ * @author Wiktor Kotela
+ */
 public class DailyReportSQLite {
+    //Database input filepath
     private String DBFilepath;
     private String DBContents;
     private String outputData;
@@ -19,12 +31,14 @@ public class DailyReportSQLite {
                 DBFilepathValid = true;
                 DBContents = "";
                 System.out.println("Succesfully connected with: " + DBFilepath);
-                long supply = 0;
-                long buy = 0;
-                long result = 0;
+                //StringBuilder is used to read whole DB contents to outputData String
                 StringBuilder DBContentsAcquisition = new StringBuilder();
                 Statement statement = SQLConnection.createStatement();
                 ResultSet results = statement.executeQuery("SELECT * FROM DailyOperations");
+                long supply = 0;
+                long buy = 0;
+                long result = 0;
+                //Reading next DB rows and checking their contents validity
                 while (results.next()) {
                     DBContentsAcquisition.append(results.getString("operationType") + "," + results.getInt("amount") + "\n");
                     if(results.getString("operationType").equals("supply")) {

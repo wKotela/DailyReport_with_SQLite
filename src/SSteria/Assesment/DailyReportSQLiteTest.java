@@ -49,7 +49,7 @@ public class DailyReportSQLiteTest {
                 {"testDB2.db","temp\\testOutput2.csv","supply,0\nbuy,864\nresult,-864","supply,0\nbuy,864\nresult,-864",true,1}, //0 - 864 - result -864
                 {"testDB3.db","temp\\testOutput3.csv","supply,6282\nbuy,0\nresult,6282","supply,6282\nbuy,0\nresult,6282",true,1}, //6282 - 0 - result 6282
                 {"testDB4.db","temp\\testOutput4.csv","supply,2946368\nbuy,92323\nresult,2854045","supply,2946368\nbuy,92323\nresult,2854045",true,1}, //2946368 - 92323 - result 2854045
-                {"testDB5.db","temp\\testOutput5.csv","Error occured when connecting to testDB5.db, [SQLITE_ERROR] SQL error or missing database (no such table: DailyOperations)","",false,0}, //invalid name of the table (DailyOperations)
+                {"testDB5.db","temp\\testOutput5.csv","Error occured when connecting to testDB5.db, [SQLITE_ERROR] SQL error or missing database (no such table: DailyOperations)","",false,0}, //invalid name of the table (DailyOperation)
                 {"testDB6.db","temp\\testOutput6.csv","Error occured when connecting to testDB6.db, no such column: 'operationType'","",false,0}, //invalid name of the column (operationTypes)
                 {"testDB7.db","temp\\testOutput7.csv","Error occured when connecting to testDB7.db, no such column: 'amount'","",false,0}, //invalid name of the column (amounts)
                 {"testDB8.db","temp\\testOutput8.csv","Invalid contents of selected database","",false,0}, //invalid contents of the input database

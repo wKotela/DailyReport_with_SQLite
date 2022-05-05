@@ -5,11 +5,19 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Scanner;
 
+/**
+ * It's a program which enables the user to generate a report from a supply/buy database and write it to specified location
+ * using DailyReport class.
+ * Program is working with SQLite databases, so it's using corresponding JDBC driver.
+ * User specifies input and output file location by typing input/output filepaths into the console.
+ * @author Wiktor Kotela
+ */
 public class Main {
 
     public static void main(String[] args) {
         boolean repeatReportGeneration = true;
         Scanner userInput = new Scanner(System.in);
+        //Main program loop
         while (repeatReportGeneration) {
             System.out.println("Specify the SQLite database filepath: (f.e.: C:\\Users\\PC\\test.db)");
             var report = new DailyReportSQLite(userInput.nextLine());

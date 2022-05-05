@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DailyReport_with_SQLite:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DailyReport_with_SQLite_jar</output-path>
+    <root id="archive" name="DailyReport_with_SQLite.jar">
+      <element id="module-output" name="DailyReport_with_SQLite" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../sqlite-jdbc-3.36.0.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
