@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85d2ec0c-2474-4921-8bee-c18314134f8b" name="Changes" comment="Additional comments and .jar export">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="85d2ec0c-2474-4921-8bee-c18314134f8b" name="Changes" comment="Added .jar file to a commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +163,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651777829578</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Excluded .jar file from .gitignore">
+      <created>1651842715299</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651842715299</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added .jar file to a commit">
+      <created>1651842837141</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651842837141</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +195,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Additional comments and .jar export" />
-    <option name="LAST_COMMIT_MESSAGE" value="Additional comments and .jar export" />
+    <MESSAGE value="Excluded .jar file from .gitignore" />
+    <MESSAGE value="Added .jar file to a commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added .jar file to a commit" />
   </component>
 </project>
