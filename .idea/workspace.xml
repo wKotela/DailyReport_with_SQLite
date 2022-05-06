@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="DailyReport_with_SQLite:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="85d2ec0c-2474-4921-8bee-c18314134f8b" name="Changes" comment="Initial commit">
+    <list default="true" id="85d2ec0c-2474-4921-8bee-c18314134f8b" name="Changes" comment="Additional comments and .jar export">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SSteria/Assesment/DailyReportSQLite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SSteria/Assesment/DailyReportSQLite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SSteria/Assesment/DailyReportSQLiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SSteria/Assesment/DailyReportSQLiteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SSteria/Assesment/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SSteria/Assesment/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +91,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -155,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651776616561</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Additional comments and .jar export">
+      <created>1651777829578</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651777829578</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,9 +178,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Additional comments and .jar export" />
+    <option name="LAST_COMMIT_MESSAGE" value="Additional comments and .jar export" />
   </component>
 </project>
